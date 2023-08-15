@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --title-font: 'Ubuntu';
+    --text-font: 'Lato';
+    --title-color: white;
+    --brand-color: rgb(242, 185, 80);
+    --subtitle-color: rgb(180, 180, 180);
+    --text-color: rgb(165, 165, 165);
+    --block-bg-color: rgb(29, 29, 36);
+    --image-bg-color: rgb(35, 35, 43);
+    --button-text-color: white;
+    --background-color: black;
+    --brands-bg-color: rgb(130, 28, 92);
+    --brands-subtitle-color: rgba(255, 255, 255, 0.77);
+    --brands-title-links-color: #f2b950;
+    --buttons-bg-color: linear-gradient(90deg, rgb(242, 185, 80), rgb(218, 89, 95));
+    --buttons-bg-color-hover: linear-gradient(90deg, rgb(218, 89, 95), rgb(242, 185, 80));
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+img {
+    display: block;
+    width: 100%;
+}

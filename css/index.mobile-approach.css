@@ -1,0 +1,120 @@
+.mobile-first-approach {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/index/mobilefirst/background-section-mobile-approach.png);
+    background-size: cover;
+    background-position: center;
+    --mask:
+       radial-gradient(183.36px at 50% 246.00px,#000 99%,#0000 101%) calc(50% - 164px) 0/328px 100%,
+       radial-gradient(183.36px at 50% -164px,#0000 99%,#000 101%) 50% 82px/328px 100% repeat-x;
+    -webkit-mask: var(--mask);
+       mask: var(--mask);
+  margin-top: -110px;
+  }
+
+ @media (min-width: 768px) {
+    .mobile-first-approach__container {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       gap: 20px;
+       align-items: center;
+       justify-content: space-around;
+       margin: 60px 20px 60px 60px;
+  }
+}
+
+.mobile-first-approach__infoblock {
+   display: flex;
+   flex-direction: column;
+   margin-top: 55px;
+}
+
+.mobile-first-approach__title {
+    color: var(--title-color);
+    font-family: var(--title-font);
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 30px 20px 10px 36px;
+    padding: 15px;
+}
+
+.mobile-first-approach__subtitle {
+    color: var(--subtitle-color);
+    font-family: var(--text-font);
+    font-size: 1.1rem;
+    font-weight: 300;
+    padding-bottom: 10px;
+    margin: 0px 20px 10px 50px;
+    padding-top: 5px;
+}
+
+.mobile-first-approach__info {
+    color: var(--title-color);
+    font-family: var(--text-font);
+    font-size: 1rem;
+    margin-left: 48px;
+    margin-bottom: 20px;
+}
+
+.article__container {
+   display: flex;
+   align-items: center;
+   margin: 0px 20px 10px 50px;
+   padding: 7.5px;
+}
+
+.article_name {
+    color: var(--title-color);
+    font-family: var(--text-font);
+    font-size: 1.3rem;
+    margin-left: 10px;
+}
+
+.article__name-analytics {
+    color: var(--title-color);
+    font-family: var(--text-font);
+    font-size: 1.3rem;
+    margin-left: 10px;
+}
+
+.article__info {
+    color: var(--text-color);
+    font-family: var(--text-font);
+    font-size: 1.1rem;
+    margin-left: 10px;
+}
+
+.article__container-image {
+    display: inline-block;
+    border-radius: 50%;
+    background-color: var(--image-bg-color);
+    padding: 13px;
+}
+
+.article__image {
+    display: block;
+    width: 24.77px;
+    order: 1;
+}
+
+.article__text {
+    order: 2;
+}
+
+.mobile-first-approach__image {
+   max-width: 100%;
+   height: auto;
+}
+
+@media (max-width: 768px) {
+    .mobile-first-approach__image {
+        max-width: 50%; 
+    }
+}
+
+.iphone-screenshot {
+    width: 360px; 
+    margin-top: 45px;
+}
